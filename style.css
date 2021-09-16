@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+:root{
+    --open: 'Open Sans', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
 header,main{
     width: 100vw;
     display: flex;
