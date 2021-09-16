@@ -8,6 +8,24 @@
     --poppins: 'Poppins', sans-serif;
 }
 
+html{
+    font-size: 62.5;
+    overflow-x: hidden;
+}
+
+p{
+    font-family: var(--open);
+}
+
+input,option,label{
+    font-family: var(--poppins);
+}
+
+input,textarea{
+    outline: none;
+    border-radius: 0.3rem;
+}
+
 header,main{
     width: 100vw;
     display: flex;
