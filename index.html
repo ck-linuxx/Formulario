@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pesquisa</title>
+
+    <!--Style-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulario de Pesquisa</h1>
+        <p>Obrigado por nos ajudar a melhorar a plataforma</p>
+    </header>
+    <main>
+        
+
+        <form class="container">
+            <p>Nome</p>
+            <input type="text" name="nome" placeholder="Digite seu nome">
+
+            <p>Email</p>
+            <input type="email" name="email" placeholder="Digite seu email">
+            
+            <p>Idade <span class="optional">(opcional)</span></p>
+            <input type="number" name="idade" placeholder="Idade">
+
+            <p>Qual opção melhor descreve sua função atual?</p>
+            <select name="role" id="dropdown" class="form-control" required>
+                <option disabled selected value>Selecione a função atual</option>
+                <option value="student">Estudante</option>
+                <option value="fullTimeJob">Trabalho em tempo integral</option>
+                <option value="fullTimeLearner">Estudo em tempo integral</option>
+                <option value="preferNotToSay">Prefiro não dizer</option>
+                <option value="other">Outro</option>
+            </select>
+
+            <div class="form-group">
+                <p>Você recomendariaeste site a um amigo?</p>
+                <label><input type="radio" name="user-recomend" class="inputRadio" checked>Definitivamente</label>
+                <label><input type="radio" name="user-recomend" class="inputRadio">Talvez</label>
+                <label><input type="radio" name="user-recomend" class="inputRadio">Não tenho certeza</label>
+                <label><input type="radio" name="user-recomend" class="inputRadio">Com certeza não</label>
+            </div>
+
+            <div class="form-group">
+                <p>Quais tipos de projetos você acha que precisa melhorar? <span>(Marque todos os que se aplicam)</span></p>
+                <label><input type="checkbox" name="projetos back-end" class="inputCheckBox">Projetos Back-End</label> 
+                <label><input type="checkbox" name="projetos front-end" class="inputCheckBox">Projetos Front-End</label>
+                <label><input type="checkbox" name="visualizações de dados" class="inputCheckBox">Visualização de dados</label>
+                <label><input type="checkbox" name="Desafios" class="inputCheckBox">Desafios</label>
+                <label><input type="checkbox" name="Comunidade de codigo livre" class="inputCheckBox">Comunidade de código livre</label>
+                <label><input type="checkbox" name="Salas de ajuda" class="inputCheckBox">Salas de ajuda</label>
+                <label><input type="checkbox" name="Videos" class="inputCheckBox">Videos</label>
+                <label><input type="checkbox" name="Encontros na cidade" class="inputCheckBox">Encontros na cidade</label>
+                <label><input type="checkbox" name="Wiki" class="inputCheckBox">Wiki</label>
+                <label><input type="checkbox" name="Forum" class="inputCheckBox">Forum</label>
+                <label><input type="checkbox" name="Cursos adicionais" class="inputCheckBox">Cursos Adicionais</label>
+            </div>
+
+            <p>Algum comentário ou sugestão</p>
+            <textarea name="comentario" class="comments" cols="30" rows="10" placeholder="Coloque seu comentário aqui..."></textarea>
+        </form>  
+    </main>
+</body>
+</html>
