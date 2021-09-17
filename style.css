@@ -14,7 +14,24 @@ html{
 }
 
 p{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
     font-family: var(--open);
+}
+
+button{
+    padding: 0.5rem 11rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #3e565d;
+    border: none;
+    border-radius: .5rem;
+}
+
+button:hover{
+    transition: 0.8s;
+    background: #618591;
+    cursor: pointer;
 }
 
 input,option,label{
@@ -43,10 +60,13 @@ header,main{
 .container input, .container textarea, 
 .container select{
     margin-left: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 0.2rem;
 }
 
 .nome{
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .form-group{
