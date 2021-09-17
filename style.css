@@ -45,11 +45,19 @@ header,main{
     margin-left: 1rem;
 }
 
+.nome{
+    margin-top: 4rem;
+}
+
 .form-group{
     display: flex;
     flex-direction: column;
 
 }
 
-
+textarea{
+    padding-right: 29rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+}
 
